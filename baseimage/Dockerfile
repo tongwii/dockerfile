@@ -7,8 +7,8 @@ FROM alpine:${OS_VERSION}
 
 # 添加一些元数据
 LABEL maintainer="info@tongwii.com" \
-      version="1.0" \
-      description="Base system"
+    version="1.0" \
+    description="Base system"
 
 # 环境变量定义
 ENV TZ ${TZ}
