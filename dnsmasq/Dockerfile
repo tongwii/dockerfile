@@ -1,4 +1,3 @@
-# docker run --name dnsmasq -d -p 53:53/udp -p 5380:8080 --log-opt "max-size=100m" -e "USER=tongwii" -e "PASS=tongwii" --restart always tongwii/dnsmasq
 # 定义变量
 ARG OS_VERSION=latest
 
