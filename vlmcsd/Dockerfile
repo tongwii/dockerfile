@@ -11,7 +11,6 @@ LABEL maintainer="info@tongwii.com" \
 
 # build时执行命令
 RUN apk update \
-    && apk upgrade \
     && apk add --no-cache build-base gcc abuild binutils cmake git \
     && cd / \
     && git clone https://github.com/Wind4/vlmcsd.git vlmgit \
