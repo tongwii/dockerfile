@@ -27,4 +27,4 @@ RUN apk update \
 EXPOSE 1688
 
 # 执行指令
-CMD ["/vlmcsd", "-D", "-d", "-t", "3", "-e", "-v"]
+ENTRYPOINT ["/vlmcsd", "-D", "-d", "-t", "3", "-e", "-v"]

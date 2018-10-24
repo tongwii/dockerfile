@@ -10,8 +10,8 @@ LABEL maintainer="info@tongwii.com" \
     description="dns server(dnsmasq)"
 
 # 添加环境变量
-ENV WEBPROC_VERSION 0.1.9
-ENV WEBPROC_URL https://github.com/jpillora/webproc/releases/download/$WEBPROC_VERSION/webproc_linux_amd64.gz
+ENV WEBPROC_VERSION 0.1.9 \
+    WEBPROC_URL https://github.com/jpillora/webproc/releases/download/$WEBPROC_VERSION/webproc_linux_amd64.gz
 
 # build时执行命令
 RUN apk update \
