@@ -15,7 +15,7 @@ filterfile user.filter      # User customizations
 logfile privoxy.log
 
 # 监听IP和端口
-listen-address  127.0.0.1:8118
+listen-address  :8118
 
 toggle  1
 
